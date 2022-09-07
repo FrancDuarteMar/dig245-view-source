@@ -1,2 +1,25 @@
-
 /* css */
+body {
+    background-color: rgba(0, 254, 237, 0.151);
+}
+.intro {
+    font-style: italic;
+    font-size: x-large;
+    color: rgba(255, 0, 0, 0.993);
+}
+
+#title {
+    color: #CC226f;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.header {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.content {
+    font-size: larger;
+    max-width: 40%;
+}
