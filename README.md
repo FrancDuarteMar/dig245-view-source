@@ -82,8 +82,8 @@ Points | Description
 
 1. Use HTML, CSS, and JS to code your design inside `index.html`
 1. Add appropriate structural HTML tags and attributes (`doctype`, `<html>`, `<head>`, `<body>`, etc.)
-1. Style your page with CSS using `<style>` tag or an external stylesheet file. Experiment!
-1. Using an ordered list, write step by step instructions for viewing the source code of a web page in your favorite browser. Include the name of the browser.
+<!-- 1. Style your page with CSS using `<style>` tag or an external stylesheet file. Experiment! -->
+<!-- 1. Using an ordered list, write step by step instructions for viewing the source code of a web page in your favorite browser. Include the name of the browser. -->
 1. Using an unordered list, write three other things you can do with the Dev Tools.
 1. Invent and add a new unique metaphor for this action (e.g. “Looking under the hood”).
 1. Find a website with a secret message in the console or source code (see examples below). Add a screenshot and link to the page with instructions to see the mesage.

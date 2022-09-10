@@ -23,3 +23,8 @@ body {
     font-size: larger;
     max-width: 40%;
 }
+
+.image-container>img:hover {
+    width: 1000;
+    height: 1200;
+}
