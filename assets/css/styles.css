@@ -24,7 +24,10 @@ body {
     max-width: 40%;
 }
 
-.image-container>img:hover {
-    width: 1000;
-    height: 1200;
+.image-container {
+    width: 600px;
+    height: 300px;
+}
+.secret {
+    color: rgba(0, 254, 237, 0.151)
 }

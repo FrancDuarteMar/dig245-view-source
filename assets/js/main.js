@@ -1,11 +1,15 @@
 /* javascript */
-//alert("Hello...");
-console.log("hello this is a console message");
 
-let box = document.querySelector(".find-width")
-let width = box.offsetWidth;
-let height = box.offsetHeight;
-console.log({ width, height });
+console.log("Hello this is a console message");
+console.log("Please enlarge your console window to see the message completely.");
 
-// console.log(document.querySelector(".find-width").offsetWidth);
-// console.log(document.querySelector(".find-width").offsetHeight);
+fetch('assets/text/ascii-art-color.txt').then(response => response.text()).then(text => console.log(text)).then(endPrint).then(flowersLeft);
+
+function endPrint() {
+    console.log("A flower for you!")
+    console.log("Welcome to my website.");
+    console.log("Glad you were able to find this image.");
+    console.log("This is just a simple image of me that you might not see at first.")
+    console.log("Keep this a secret! I'll run out of flowers!")
+
+}

@@ -1,25 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-    <!-- meta tags, links to css, etc. -->
     <title>DIG 245 View Source</title>
-
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/js/main.js"></script>
-
 </head>
 
 <body>
-
-    <!-- visible content goes here -->
     <h1 id="title">DIG 245 View Source</h1>
-    <!-- 
-    <p class="intro">Hello, this is an introduction</p>
-
-    <p>Just a paragraph here...</p> -->
-
     <div class="tutorial">
         <div>
             <h3 class="header">View Source on Microsoft Edge</h3>
@@ -41,9 +30,13 @@
                             <em>option + command + I</em> on your keyboard!</li>
                     </ul>
                     <br>
-                    <img class = "image-container" src="assets/img/inspect.png" alt="" width="350"
+                    <img src="./assets/img/inspect.png"
+                        alt="The inspect button on Microsoft Edge" width="350"
                         height="50">
-                    <!-- Add a gif showing how to do do it -->
+                </li>
+                <li>
+                    Now, have fun with all of the cools things you can do with
+                    the Developer Tools!
                 </li>
 
             </ol>
@@ -53,21 +46,82 @@
             <ul class="content">
                 <li>
                     Want to see what you're downloading? Check out the
-                    <code>Network</code> tab in the console.
+                    <code>Network</code> tab in the console. Here you can also
+                    download files when a website doesn't provide a download
+                    button. Use it responsibly!
                     <br>
-                    <div class="image-container">
-                    <img class = "image-container" src="./assets/img/Network-view.png" alt="" width="600" height= "400" srcset="">
-                </div>
+                    <img class="image-container"
+                        src="./assets/img/Network-view.png"
+                        alt="The network tab in the console!">
                 </li>
-
                 <li>
-                    Want to make a quick change to the website? You can also do that from the console!
+                    Want to make a quick change to the website? You can also do
+                    that from the console! Just launch the dev tools/inspect
+                    element and head over to the <code>elements</code> tab and
+                    start changing things! Here you can change everything
+                    including text colors, content and other visual attributes
+                    that appears on the site!
+                    <br>
+                    <img class="image-container" src="./assets/img/elements.png"
+                        alt="Elements tab">
+                </li>
+                <li>
+                    Want to see what the current website looks like on a
+                    different device or do you just want to trick the website
+                    into thinking you're on a phone? You can do that by
+                    selecting the <code> Device Emulation</code>button available
+                    on some browsers like Microsoft Edge.
+                    <br>
+                    <img src="./assets/img/device-emulation.png"
+                        alt="The device emulation button" width="600"
+                        height="85">
+                    <br>
+                    From here, you can control the size of the webpage on the
+                    left of your developer tools. For some websites, you can do
+                    special tasks that can only be done on mobile and for
+                    others, you can see live changes as you resize the selected
+                    area without the need to change your window view!
                 </li>
             </ul>
         </div>
+        <div>
+            <h3 class="header">What is this?</h3>
+            <div class="content">
+                Think of this like looking at the insides of your body or taking
+                apart a computer. You can see everything that happens inside of
+                the websites you visit!
+            </div>
+        </div>
+        <div>
+            <h3 class="header">Where else can I see this?</h3>
+            <p class="content">
+                This is all pretty cool huh? If you want to see more, head on
+                over to <a href="http://amazon.com" target="_blank">Amazon's
+                    website</a>! Open up the developer tools or look at the
+                source code. Now scroll to the very bottom and you'll see a duck
+                that meows!
+                <br>
+                <img src="./assets/img/duck-meow.png"
+                    alt="A duck that meows in ascii" width="600">
+                <br>
+                Even Amazon, as one of the most visited sites, has a special
+                hidden secret!
 
+                <!-- Can you find this hidden message by highlighting the text on the page? -->
+                <code class="secret">
+                    This site also has a secret image if you check the console.
+                </code>
+
+                <!-- If you want to see a secret on this page, head on over to the console and look at what I created here. Its a secret so don't tell others!! -->
+            </p>
+        </div>
+        <div>
+            <h3 class="header">What's that!? A cow!</h3>
+            <img src="assets/img/cow.jpg"
+                alt="I don't really have a favorite animal but I guess cows are pretty cool. You'll only know this if you can see the code!"
+                class="image-container">
+        </div>
     </div>
-
 </body>
 
 </html>
